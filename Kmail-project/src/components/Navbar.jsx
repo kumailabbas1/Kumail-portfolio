@@ -77,6 +77,15 @@ const Navbar = () => {
             >
               Portfolio
             </Link>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="hover:text-brightColor transition-all cursor-pointer  font-semibold"
+            >
+             Contact
+            </Link>
           </nav>
 
           <div className="lg:hidden flex items-center">

@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import MYimages from './components/Portfolio'
 import Footer from './components/Footer'
 import Education from './components/eduaction'
+import Contact from './components/Contact'
 
 const App = () => {
   return (
@@ -38,9 +39,15 @@ const App = () => {
           <MYimages />
         </div>
 
+      <div id='contact'>
+        <Contact />
+      </div>
+
         <div id='footer'>
           <Footer />
         </div>
+
+
       </main>
     </div>
   )

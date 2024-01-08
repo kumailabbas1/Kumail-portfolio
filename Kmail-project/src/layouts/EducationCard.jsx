@@ -7,7 +7,7 @@ const EducationCard = (props) => {
         <h2 className=" font-semibold">{props.title}</h2>
         <div className="mt-2">
           <p>Student</p>
-          <p>Jan 1016 - Dec 2021</p>
+          <p>Jan 2016 - Dec 2021</p>
         </div>
       </div>
       <div>
